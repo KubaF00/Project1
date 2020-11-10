@@ -1,3 +1,3 @@
 # Project1-Pierwsza-strona-WWW
 ________________________
-Nauka na podstawie ksiażki: "Zawód Front-end developer"
+Pierwszy projekt wykonany własnoręcznie, wiedza zdobyta z kilku książek
