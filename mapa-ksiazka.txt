@@ -1,0 +1,21 @@
+/*MAPA-css*/
+#mapa {
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    border-bottom: 1px solid rgb(180,180,180);
+}
+
+<script>
+      function initMap() {
+        var wspolrzedne = new google.maps.LatLng(52.410081, 16.927751);
+        var opcjeMapy = {
+          zoom: 15,
+          center: wspolrzedne,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var mapa = new google.maps.Map(document.getElementById('mapa'), opcjeMapy);
+      }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDqIsjdv3sA1yHOR0mxEGuHnfZ52cdMPCg&callback=initMap"
+    type="text/javascript"></script>

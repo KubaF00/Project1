@@ -1,0 +1,117 @@
+@media screen and (max-width: 1050px){
+    .boks_oferta {
+        width: 43.3%;
+        height: auto;
+        margin-bottom: 2.3%;
+    }
+    .boks_oferta:nth-of-type(2n){
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 768px){
+    /*WARTOŚCI WSPÓLNE*/
+    .srodkuj {
+        width: 95%;
+    }
+    .dzial_naglowek {
+        margin: 5% 0;
+        line-height: 45px;
+    }
+    .dzial_opis {
+        line-height: 25px;
+    }
+    /*------------------------------------------------------*/
+    /*MENU*/
+    #kon_menu {
+        top: -220px;
+        padding: 0;
+    }
+    .link_menu {
+        width: 100%;
+    }
+    .link_menu li {
+        width: 100%;
+        float: none;
+        padding: 10px 0;
+    }
+    .pokaz_menu {
+        display: block;
+        padding: 15px;
+        background: rgb(83,62,26);
+        text-align:center;
+        color: rgb(245,245,245);
+        cursor: pointer;
+    }
+    /*------------------------------------------------------*/
+    /*TOP STRONY*/
+    #top_strony {
+        height: 600px;
+        background: url(../images//top_strony.jpg) no-repeat center;
+    }
+    #top_strony h1 {
+        margin-top: 25%;
+        font-size: 2.5em;
+    }
+    #top_strony h2 {
+        font-size: 1.5em;
+        line-height: 30px;
+    }
+    #top_strony p{
+        margin-top: 35%;
+    }
+    #top_strony p a{
+        padding: 15px 50px;
+    }
+    /*------------------------------------------------------*/
+    /*OFERTA*/
+    .boks_oferta {
+        width: 96%;
+        height: auto;
+        float:none;
+        margin-right: 0;
+        margin-bottom: 5%;
+        text-align: center;
+    }
+    .boks_oferta ul {
+        height: auto;
+    }
+    /*------------------------------------------------------*/
+    /*DIETETYK*/
+    .dietetyk_personalne, .dietetyk_osiagniecia {
+        width: 96%;
+        float: none;
+        margin-right: 0;
+        margin-bottom: 3%;
+        text-align: center;
+    }
+    .img_certyfikat {
+        display: block;
+        width: 40%;
+        float: none;
+        margin: 0 auto;
+    }
+    /*------------------------------------------------------*/
+    /*MAPA-do zrobienia*/
+    /*------------------------------------------------------*/
+    /*KONTAKT-FORMULARZ*/
+    .okienko_formularz h3 {
+        text-align: center;
+    }
+    .okienko_formularz input {
+        width: 93%;
+        padding: 3%;
+        margin-right: 0%;
+        margin-bottom: 3%;
+    }
+    .okienko_formularz textarea {
+        width: 93%;
+        padding: 3%;
+    }
+    .wyslij_ankiete {
+        margin-top: 3%;
+    } 
+    /*STOPKA*/
+    #kon_stopka {
+        padding: 3% 0;
+    }
+}
